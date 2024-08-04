@@ -6,7 +6,7 @@ document.getElementById('dataForm').addEventListener('submit', async function(ev
     }
 
     try {
-        const response = await fetch('http://localhost:3000/order', {
+        const response = await fetch('http://143.198.212.194:3000/order', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
